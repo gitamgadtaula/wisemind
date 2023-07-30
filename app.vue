@@ -5,6 +5,7 @@
       <div class="">
         <HeroComponent />
       </div>
+      <ServicesComponent />
       <TestimonialComponent />
       <FaqComponent />
       <ContactComponent />
