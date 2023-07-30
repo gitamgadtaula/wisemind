@@ -1,9 +1,12 @@
 <template>
   <div>
     <NavBar />
-    <div class="mx-auto p-4">
-      <HeroComponent />
+    <div class="">
+      <div class="">
+        <HeroComponent />
+      </div>
       <TestimonialComponent />
+      <FooterComponent />
     </div>
   </div>
 </template>
