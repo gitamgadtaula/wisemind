@@ -79,7 +79,7 @@
     </div>
   </nav> -->
 
-  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <nav class="bg-[#fabd49] border-gray-200 dark:bg-gray-900">
     <div
       class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4"
     >
@@ -107,7 +107,7 @@
       </div>
     </div>
   </nav>
-  <nav class="bg-yellow-400 text-white dark:bg-gray-700">
+  <nav class="bg-gray-200 text-white dark:bg-gray-700">
     <div class="max-w-screen-xl px-4 py-3 mx-auto">
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">

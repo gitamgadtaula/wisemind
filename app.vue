@@ -6,6 +6,8 @@
         <HeroComponent />
       </div>
       <TestimonialComponent />
+      <FaqComponent />
+      <ContactComponent />
       <FooterComponent />
     </div>
   </div>
