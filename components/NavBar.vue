@@ -93,25 +93,25 @@
           <p class="text-sm createBlock">Unlocking Brilliance</p>
         </div>
       </a>
-      <div class="flex items-center">
-        <div class="flex justify-center text-xl mt-2">
-          <span> Study in&nbsp;</span>
-          <VueWriter :array="countries" :eraseSpeed="50" :typeSpeed="100" />
-        </div>
-        <!-- <a
-          href="tel:5541251234"
-          class="mr-6 text-sm text-gray-500 dark:text-white hover:underline"
-          >(555) 412-1234</a
-        >
-        <a
-          href="#"
-          class="text-sm text-blue-600 dark:text-blue-500 hover:underline"
-          >contact@wisemind.com</a
-        > -->
+      <div class="flex justify-center text-xl mt-2">
+        <span> Study in&nbsp;</span>
+        <VueWriter :array="countries" :eraseSpeed="50" :typeSpeed="100" />
       </div>
     </div>
+    <!-- <div class="flex items-center justify-end">
+      <a
+        href="tel:5541251234"
+        class="mr-6 text-sm text-gray-500 dark:text-white hover:underline"
+        >(555) 412-1234</a
+      >
+      <a
+        href="#"
+        class="text-sm text-blue-600 dark:text-blue-500 hover:underline"
+        >contact@wisemind.com</a
+      >
+    </div> -->
   </nav>
-  <nav class="bg-gray-200 text-white dark:bg-gray-700">
+  <nav class="bg-gray-200 text-white dark:bg-gray-700 overflow-scroll">
     <div class="max-w-screen-xl px-4 py-3 mx-auto">
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
