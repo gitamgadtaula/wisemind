@@ -94,7 +94,11 @@
         </div>
       </a>
       <div class="flex items-center">
-        <a
+        <div class="flex justify-center text-xl mt-2">
+          <span> Study in&nbsp;</span>
+          <VueWriter :array="countries" :eraseSpeed="50" :typeSpeed="100" />
+        </div>
+        <!-- <a
           href="tel:5541251234"
           class="mr-6 text-sm text-gray-500 dark:text-white hover:underline"
           >(555) 412-1234</a
@@ -103,7 +107,7 @@
           href="#"
           class="text-sm text-blue-600 dark:text-blue-500 hover:underline"
           >contact@wisemind.com</a
-        >
+        > -->
       </div>
     </div>
   </nav>
@@ -144,3 +148,7 @@
     </div>
   </nav>
 </template>
+<script setup>
+import VueWriter from "vue-writer";
+const countries = ["Australia ", "New Zealand ", "USA ", "Canada"];
+</script>

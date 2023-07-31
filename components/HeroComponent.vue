@@ -27,6 +27,8 @@
         <div class="grid place-items-center">
           <img src="@/assets/full-logo.png" class="w-64" />
         </div>
+
+       
         <!-- <h2
           class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight"
         >
@@ -56,7 +58,7 @@
               d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
             />
           </svg> -->
-        Opening soon
+          Opening soon
         </a>
       </div>
     </div>
@@ -70,3 +72,6 @@
     </div>
   </section>
 </template>
+<script setup>
+
+</script>
