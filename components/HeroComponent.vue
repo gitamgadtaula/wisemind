@@ -40,8 +40,8 @@
           WiseMind <br />
           Unlocking Brilliance
         </h2> -->
-        <p class="mt-6 text-lg text-gray-900">
-          Your Journey to a Brighter Future Begins now with Wisemind Education
+        <p class="mt-6 text-lg text-gray-900 font-victor">
+          Your Journey to a Brighter Future Begins with Wisemind Education
         </p>
         <a
           href="#"

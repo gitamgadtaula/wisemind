@@ -36,3 +36,9 @@ onMounted(() => {
   AOS.init();
 });
 </script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap");
+.font-victor {
+  font-family: "Victor Mono", monospace;
+}
+</style>
