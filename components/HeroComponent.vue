@@ -24,14 +24,15 @@
   <section
     class="pt-4 bg-gray-100 sm:pt-16 lg:pt-8 bg-fixed bg-center bg-cover"
     style="
-      background-image: url('../assets/harbour_bridge.jpg');
+      background-image: url('/harbour_bridge.jpg');
       background-repeat: no-repeat;
     "
+  
   >
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div class="max-w-2xl mx-auto text-center">
         <div class="grid place-items-center">
-          <img src="@/assets/full-logo.png" class="w-64" />
+          <img src="@/assets/full-logo.png" class="w-[22rem]" />
         </div>
 
         <!-- <h2
