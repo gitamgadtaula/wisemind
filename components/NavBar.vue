@@ -93,12 +93,14 @@
           <p class="text-sm createBlock">Unlocking Brilliance</p>
         </div>
       </a>
-      <div
-        class="flex justify-center text-xl mt-2 font-victor"
-       
-      >
+      <div class="flex justify-center text-xl mt-2 font-victor">
         <span> Study in&nbsp;</span>
-        <VueWriter :array="countries" :eraseSpeed="50" :typeSpeed="100" />
+        <VueWriter
+          :array="countries"
+          :eraseSpeed="50"
+          :typeSpeed="100"
+          caret="cursor"
+        />
       </div>
     </div>
     <!-- <div class="flex items-center justify-end">
@@ -155,5 +157,4 @@
 import VueWriter from "vue-writer";
 const countries = ["Australia ", "New Zealand ", "USA ", "Canada"];
 </script>
-<style>
-</style>
+<style></style>
