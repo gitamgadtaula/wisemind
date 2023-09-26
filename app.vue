@@ -138,7 +138,7 @@
             >
               If you want to grab a coffee with someone and learn how the agency
               can take you global, please feel free to ping on Whatsapp on
-              +977-9851183719
+              <a href="https://wa.me/9779851183719">+977-9851183719</a>
             </p>
           </div>
         </section>
@@ -182,7 +182,7 @@
 <script setup>
 import "aos/dist/aos.css";
 import AOS from "aos";
-const isOpen=ref(false)
+const isOpen = ref(false);
 onMounted(() => {
   AOS.init();
 });
