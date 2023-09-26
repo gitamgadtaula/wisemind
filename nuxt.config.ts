@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
-      title: "Korfi B2B",
+      title: "Korifi B2B",
     },
   },
 });
